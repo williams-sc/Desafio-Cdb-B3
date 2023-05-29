@@ -7,11 +7,11 @@ Tecnologias
 Backend: .NET 7
 
 Frontend: Angular 13
-Projeto
-Executável
+
+Projeto Executável
+
 BackEnd
 Projeto se encontra no diretório api/src/B3.CDB.API.
-
 URL Swagger BackEnd
 
 FrontEnd
