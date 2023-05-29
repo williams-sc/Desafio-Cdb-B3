@@ -12,7 +12,8 @@ Projeto Executável
 
 BackEnd
 Projeto se encontra no diretório api/src/B3.CDB.API.
-URL Swagger BackEnd
+
+Swagger BackEnd
 
 FrontEnd
 Diretório web/B3.CDB.Web
