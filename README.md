@@ -5,6 +5,7 @@ Este projeto tem como objetivo desenvolver uma calculadora de CDB baseada em cá
 Tecnologias
 
 Backend: .NET 7
+
 Frontend: Angular 13
 Projeto
 Executável
