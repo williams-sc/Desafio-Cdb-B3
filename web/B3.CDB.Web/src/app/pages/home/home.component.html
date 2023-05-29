@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="form-container">
+    <form [formGroup]="calculateForm" (submit)="!calculateForm.valid">
+      <mat-form-field class="form-field" appearance="outline">
+        <mat-label> Valor Inicial:</mat-label>
+        <input matInput formControlName="initialAmount" required>
+        <mat-error *ngIf="calculateForm.controls.initialAmount.invalid">Digite um valor maior que 0 e menor que
+          1TT</mat-error>
+      </mat-form-field>
+      <mat-form-field class="form-field" appearance="outline">
+        <mat-label> Quantidade de Meses:</mat-label>
+        <input matInput formControlName="monthlyTerm" required>
+        <mat-error *ngIf="calculateForm.controls.initialAmount.invalid">Digite uma quantidade válida (entre 1 e
+          60)</mat-error>
+      </mat-form-field>
+      <button mat-button color="primary" onsubmit="getCalculation()">Calcular</button>
+    </form>
+  </div>
+  <div class="result-container">
+    <div class="result" *ngIf="showResult">
+      <mat-card>
+        <mat-card-title>Valor Total Bruto: {{calculateResponse.totalAmountGross}}</mat-card-title>
+      </mat-card>
+      <br>
+      <mat-card>
+        <mat-card-title>Valor Total Líquido: {{calculateResponse.totalAmountNet}}</mat-card-title>
+      </mat-card>
+    </div>
+  </div>
+</div>
