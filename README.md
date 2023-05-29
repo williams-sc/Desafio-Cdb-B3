@@ -22,4 +22,4 @@ BackEnd
 api/test/B3.CDB.Unit.Test
 
 FrontEnd
-web/B3.CDB.Web Como padrão porta já configurada no back executando no IIS com SSL (44393).
+web/B3.CDB.Web Como padrão porta já configurada no back executando no IIS com SSL (44393)
